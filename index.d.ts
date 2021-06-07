@@ -157,6 +157,7 @@ export interface InputProps extends BasicProps {
   placeholder: string;
   type?: "text" | "number" | "password";
   defaultValue?: any;
+  value?: any;
   isDisabled?: boolean;
   onChange?: (
     value: string,
@@ -196,6 +197,7 @@ export interface SelectProps extends BasicProps {
   placeholder: string;
   isDisabled?: boolean;
   defaultValue?: string | number | boolean;
+  value?: string | number | boolean;
   onExpand?: (state: boolean) => void;
   onChange?: (option: SelectOption) => void;
 }
