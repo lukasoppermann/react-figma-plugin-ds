@@ -11,6 +11,7 @@ const Button: React.FunctionComponent<ButtonProps> = ({
   onClick,
   isDestructive,
   type,
+  autofocus,
 }) => {
   className = className || "";
   type = type || "submit";
@@ -24,6 +25,7 @@ const Button: React.FunctionComponent<ButtonProps> = ({
 
   return (
     <button
+      autoFocus={autofocus}
       onClick={onClick}
       className={`button button--${level}${modificator} ${className}`}
       disabled={isDisabled}

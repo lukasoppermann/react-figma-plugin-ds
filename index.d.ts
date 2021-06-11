@@ -117,6 +117,7 @@ export interface BasicProps {
 
 export interface ButtonProps extends BasicProps {
   children: any;
+  autofocus?: boolean;
   isSecondary?: boolean;
   isTertiary?: boolean;
   isDisabled?: boolean;
