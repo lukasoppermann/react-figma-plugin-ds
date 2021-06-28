@@ -160,6 +160,8 @@ export interface InputProps extends BasicProps {
   defaultValue?: any;
   value?: any;
   isDisabled?: boolean;
+  required?: boolean;
+  pattern?: string;
   onChange?: (
     value: string,
     event: React.ChangeEvent<HTMLInputElement>

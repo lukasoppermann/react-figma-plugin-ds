@@ -11,6 +11,8 @@ const InputComponent: React.FunctionComponent<InputProps> = ({
   placeholder,
   isDisabled,
   onChange,
+  required,
+  pattern,
 }) => (
   <input
     type={type}
@@ -19,6 +21,8 @@ const InputComponent: React.FunctionComponent<InputProps> = ({
     defaultValue={defaultValue}
     value={defaultValue}
     disabled={isDisabled}
+    required={required}
+    pattern={pattern}
     onChange={(event) => onChange && onChange(event.target.value, event)}
   />
 );
@@ -33,6 +37,8 @@ const Input: React.FunctionComponent<InputWithIconProps> = ({
   placeholder,
   isDisabled,
   onChange,
+  required,
+  pattern,
 }) => {
   className = className || "";
   type = type || "text";
@@ -49,6 +55,8 @@ const Input: React.FunctionComponent<InputWithIconProps> = ({
           value={value}
           placeholder={placeholder}
           isDisabled={isDisabled}
+          required={required}
+          pattern={pattern}
           onChange={onChange}
         />
       </div>
@@ -63,6 +71,8 @@ const Input: React.FunctionComponent<InputWithIconProps> = ({
           value={value}
           placeholder={placeholder}
           isDisabled={isDisabled}
+          required={required}
+          pattern={pattern}
           onChange={onChange}
         />
       </div>

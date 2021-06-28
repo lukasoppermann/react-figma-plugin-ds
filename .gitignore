@@ -8,10 +8,8 @@
 
 # production
 /build
-/dist
 /examples/dist
-/styles
-figma-plugin-ds.css
+/stylesst
 
 # misc
 .idea
