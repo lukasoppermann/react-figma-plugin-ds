@@ -7,7 +7,7 @@ var react_1 = __importDefault(require("react"));
 var _1 = require("./");
 var InputComponent = function (_a) {
     var _b = _a.className, className = _b === void 0 ? "" : _b, type = _a.type, defaultValue = _a.defaultValue, value = _a.value, placeholder = _a.placeholder, isDisabled = _a.isDisabled, onChange = _a.onChange, required = _a.required, pattern = _a.pattern;
-    return (react_1.default.createElement("input", { type: type, className: className, placeholder: placeholder, defaultValue: defaultValue, value: defaultValue, disabled: isDisabled, required: required, pattern: pattern, onChange: function (event) { return onChange && onChange(event.target.value, event); } }));
+    return (react_1.default.createElement("input", { type: type, className: className, placeholder: placeholder, defaultValue: defaultValue, value: value, disabled: isDisabled, required: required, pattern: pattern, onChange: function (event) { return onChange && onChange(event.target.value, event); } }));
 };
 var Input = function (_a) {
     var className = _a.className, type = _a.type, icon = _a.icon, _b = _a.iconColor, iconColor = _b === void 0 ? "black3" : _b, defaultValue = _a.defaultValue, value = _a.value, placeholder = _a.placeholder, isDisabled = _a.isDisabled, onChange = _a.onChange, required = _a.required, pattern = _a.pattern;
