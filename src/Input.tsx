@@ -46,7 +46,7 @@ const Input: React.FunctionComponent<InputWithIconProps> = ({
 
   if (icon) {
     return (
-      <div className="input input--with-icon">
+      <div className={`input input--with-icon ${className}`}>
         <Icon name={icon} color={iconColor} isDisabled={isDisabled} />
         <InputComponent
           className={`${inputClass} ${className}`}
@@ -63,7 +63,7 @@ const Input: React.FunctionComponent<InputWithIconProps> = ({
     );
   } else {
     return (
-      <div className="input">
+      <div className={`input ${className}`}>
         <InputComponent
           className={`${inputClass} ${className}`}
           type={type}
