@@ -15,12 +15,12 @@ var Input = function (_a) {
     type = type || "text";
     var inputClass = "input__field";
     if (icon) {
-        return (react_1.default.createElement("div", { className: "input input--with-icon" },
+        return (react_1.default.createElement("div", { className: "input input--with-icon " + className },
             react_1.default.createElement(_1.Icon, { name: icon, color: iconColor, isDisabled: isDisabled }),
             react_1.default.createElement(InputComponent, { className: inputClass + " " + className, type: type, defaultValue: defaultValue, value: value, placeholder: placeholder, isDisabled: isDisabled, required: required, pattern: pattern, onChange: onChange })));
     }
     else {
-        return (react_1.default.createElement("div", { className: "input" },
+        return (react_1.default.createElement("div", { className: "input " + className },
             react_1.default.createElement(InputComponent, { className: inputClass + " " + className, type: type, defaultValue: defaultValue, value: value, placeholder: placeholder, isDisabled: isDisabled, required: required, pattern: pattern, onChange: onChange })));
     }
 };
