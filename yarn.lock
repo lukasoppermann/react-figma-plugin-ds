@@ -3988,9 +3988,9 @@ decamelize@^1.1.2, decamelize@^1.2.0:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 dedent@^0.7.0:
   version "0.7.0"
@@ -4942,10 +4942,10 @@ figgy-pudding@^3.5.1:
   resolved "https://registry.yarnpkg.com/figgy-pudding/-/figgy-pudding-3.5.2.tgz#b4eee8148abb01dcf1d1ac34367d59e12fa61d6e"
   integrity sha512-0btnI/H8f2pavGMN8w40mlSKOfTK2SVJmBfBeVIj3kNw0swwgzyRq0d5TJVOwodFmtvpPeWPN/MCcfuWF0Ezbw==
 
-figma-plugin-ds@^0.1.8:
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/figma-plugin-ds/-/figma-plugin-ds-0.1.8.tgz#8b30901859ee27a03ce16ab7f8c2ce3c5110643d"
-  integrity sha512-Uyq6H7JPI5me6okR0calUjW7EPwO5KCuxRwn86CJKoivULjooKIaVF83JcgKZzFod18oK6SJzVnlqFw11MfUcg==
+figma-plugin-ds@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/figma-plugin-ds/-/figma-plugin-ds-1.0.1.tgz#bcaf2f96c4533be80ef439232e1f7cd037cc3c80"
+  integrity sha512-j1/mcHeYx8IRzdLbNyqo9PQXqtI3ujN/RfjuXFS7OintJojuXG2GuaL8COzqAH66ZPXx4aFHMkqRjbBaudBCpA==
 
 figures@^3.0.0, figures@^3.2.0:
   version "3.2.0"
